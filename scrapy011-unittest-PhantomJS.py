@@ -36,7 +36,7 @@ class Douyu(unittest.TestCase):
                 self.num += 1
 
             # 如果在页面源码里找到"下一页"为隐藏的标签，就退出循环
-            if int(page_num) >= 3:
+            if int(page_num) >= 10:
                 break
 
             # 一直点击下一页
